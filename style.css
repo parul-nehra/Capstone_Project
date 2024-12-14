@@ -129,3 +129,52 @@ opacity: 0px;
 .projects h2{
     margin-left: 24px;
 }
+.review button{
+    background-color: #CC0B0B;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+.contact-header h1{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 8px;
+}
+.contact-header p{
+    margin: 0;
+}
+.contact-otp{
+    display: flex;
+    gap: 12px;
+}
+.otp{
+    display: flex;
+    width: auto;
+height: 30px;
+padding: 8px 16px 8px 16px;
+gap: 0px;
+border-radius: 8px;
+border: 1.5px solid #00000029;
+opacity: 0px;
+align-items: center;
+}
+.submit{
+    width: 400px;
+    height: 36px;
+    border-radius: 22px;
+    background-color: #CC0B0B;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+.skip{
+    color: #CC0B0B;
+    font-weight: 500;
+}
