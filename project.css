@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 0 48px ;
+}
+.navbar .links a{
+    text-decoration: none;
+    color: black;
+    font-family: Libre Franklin;
+font-size: 28px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: -0.01em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.navbar .links{
+    display: flex;
+    gap: 48px;
+}
+.navbar .logo h1{
+    font-family: Hepta Slab;
+font-size: 42px;
+font-weight: 800;
+line-height: 42px;
+letter-spacing: -0.04em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.container{
+    padding: 0 48px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.header h1{
+    font-family: Libre Franklin;
+font-size: 120px;
+font-weight: 800;
+line-height: 120px;
+letter-spacing: -0.02em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.header img{
+    width: auto;
+height: 672px;
+gap: 0px;
+border-radius: 56px;
+}
+.main-work{
+    background: radial-gradient(63.68% 40.76% at 50% 103.08%, rgba(204, 11, 11, 0.06) 0%, rgba(255, 255, 255, 0) 100%);
+    width: 100%;
+    height: 720px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+.main-work h2{
+    font-family: Libre Franklin;
+font-size: 64px;
+font-weight: 800;
+line-height: 0px;
+letter-spacing: -0.02em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin: 0;
+margin-bottom: 24px;
+
+}
+.main-work p{
+    font-family: Source Serif 4;
+font-size: 24px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: -0.005em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.button{
+    width: 175px;
+height: 48px;
+padding: 12px 24px 12px 24px;
+gap: 0px;
+border-radius: 8px;
+background-color: #CC0B0B;
+border: none;
+color: white;
+
+}
+
+.images-container{
+    display: flex;
+    justify-content: space-around;
+}
+.image-container img{
+    height: 420px;
+    width: auto;
+}
+.image-container h1{
+    line-height: 16px;
+}
+.image-container button{
+    width: 110px;
+height: 36px;
+padding: 8px 16px 8px 16px;
+gap: 0px;
+border-radius: 8px;
+opacity: 0px;
+}
+.projects h2{
+    margin-left: 24px;
+}

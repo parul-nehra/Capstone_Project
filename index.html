@@ -1,0 +1,70 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintage Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="top-header">
+        <div class="container">
+            <h1 class="logo">Portfolio</h1>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">☰</label>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home" class="hero-section">
+        <div class="container">
+            <h1>Welcome to My Vintage Portfolio</h1>
+            <img src="https://s3-alpha-sig.figma.com/img/b880/f5b4/97e31e1efbc758dad17220d301ed83aa?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Co3nDA0vuH5Sf6wmn0eCKiHeOGTRecAXvifmeV5ovC8uQTxt9UG6tp~z0o71lB-lLybzQ~iS5SxxDxhwLbPd53YtLUnOCZrUqTtxQUMA4Gbx9tOV0~CQuTcfxOjrw5EqTICDaahHjPQMEYRRYzE1mT1LZ1S6jnCwd3X-W4tHbMxM85qzE1s~KtorrjymfKksH--qdVPcL9d~pqIUHi3qtg-WGRnotMvDapEfaUsn9Sp-eBya-9pOdpvNJepHKw5Q9fWJFI-ueFPJXlDDmceiWhpkFh6iHRuqk7D-IOSPbqHtFph4A21konjgPpPlNN8pwz7kFgRSBZ7UfoWvLUSAxg__" alt="Vintage Newspaper" class="hero-image">
+            <p>Discover projects that showcase my skills and creativity.</p>
+            <a href="#projects" class="button">See My Work</a>
+        </div>
+    </section>
+
+    <main>
+        <section id="projects" class="projects-section">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <img src="https://s3-alpha-sig.figma.com/img/e821/fc0a/5f46324828e42abe7f688e580fb501b5?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ROysmSGoZM3yyCuUsw-UUulwxd51JVaPK0C9j6nWed-aJ0CxxfmlC0EbjIeskQ7QHcoC6ihHvKnJeB9aIE8wk37IcRt6Cx4pF7JU95wJiFiDxYdyv~fXczyn0IG26d22EJCS9Evrtsafo~DQi4xBBpjovlBSuhTHbM73mar9gc8bqVH2XpP~jpea3rViGdO~~G39SZNUwYN8HBT6ePpMWxGlQhgfYwuzk-5QqJ8bex2uh9y9qfiHeFH2kRd6~cH3eip7CV1HueKpNjOeMmLpiG4Wqs-~dpfGRvAA9D9dqDJS7rGE6gZUFgwbhvIP6YtIatvOiLmnBFGNGniOEyBWxg__" alt="Project One">
+                    <h3>Project One</h3>
+                    <p>A detailed look at my first project.</p>
+                    <a href="#" class="button">Read More</a>
+                </div>
+                <div class="project-card">
+                    <img src="https://s3-alpha-sig.figma.com/img/fd78/73fb/4e4d4cbbecaf5fbd1cd62dfbf4ae939e?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=i1WlbSht7WiKEYZMi0exf~y5IWwdiEtAhkFlPTVcYiC0x7Tf5nj7QYqR-5ZgxO8amcdnKS3ukqVBMDv2LEA3iroreY-05Hz0xoEZLR5vOVWvitzuEUXIyUBh4CJkSrcivCW5JmErsSgb8euQhV0bbGxKCXAOPmdkNk5xnkG-AYLyVfXlvpQhDo64S6ALA64h9s5oK41xDpDz4lBNuizhDcVZv0wJtL9pxwz7AJ87zuwbFmRmGx1wVxjGmG5BAyhFBTTsGJGaLqeDEBp2SjEWyJUYmUd2iyPggxS~MIkZ1WViRjrOIyHGTosqlDhi9ZAEb2Cid7Yo4qlRMvyP2KSutA__" alt="Project Two">
+                    <h3>Project Two</h3>
+                    <p>A colorful and creative project.</p>
+                    <a href="#" class="button">Read More</a>
+                </div>
+                <div class="project-card">
+                    <img src="https://s3-alpha-sig.figma.com/img/9205/f5f4/ab60616b38df2328816c5a51cbdf1257?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MgEqiBVoyqnsFvLCurYT1dk6zPN5paxg68syTCILnjjRK2DPXyp6zdlM723ZJCfBoOBU5FbjuwXj5FkffuI6O6oQNmpFLMNxCYzqMjX6tyQJiDyY6yFTp4Qv5ljZyIXVtDOlYLeWfZBhVTSYA84KubuAZeFwJHTdqc6jMUyGZ2~1W~HeTZup5fZdi4qol1dp6D6TwrDwHgsHiCoNCo2w9yToyJQrbn1lAK0ASdkXl~2Srov83Q2A0GVVc0KeYUkWWhHsymLrZlfRxkhAGVDB1KRQ5SJba3PS8sUFVzk7BG9nZ0p7l1huuiO7CN~W9Ge0NZwFM0yS73qQxVHSuHmY4g__" alt="Project Three">
+                    <h3>Project Three</h3>
+                    <p>Elegant and vintage design project.</p>
+                    <a href="#" class="button">Read More</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2023 My Vintage Portfolio</p>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
+ -->
