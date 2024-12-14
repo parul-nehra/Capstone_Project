@@ -21,7 +21,6 @@ letter-spacing: -0.01em;
 text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
-
 }
 .navbar .links{
     display: flex;
